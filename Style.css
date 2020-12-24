@@ -1,0 +1,116 @@
+
+.profile{
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+/*---------------------------PAGE1--------------------------------------*/
+#page1
+{
+    background-image: url(img/backgroundd.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.profile img{
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    width: 200px;
+    
+}
+
+.profile h1{
+    font-weight: bold;
+    font-size: x-large;
+    margin: 10px;
+
+}
+
+.profile p{
+    font-size: medium;
+    margin: 10px;
+    
+}
+
+/*-------------------------------PAGE2----------------------------------*/
+#page2 {
+    height: 100vh;
+}
+
+.fotodiri{
+    width:400px;
+    margin-left: 30px;
+}
+
+.about{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.nav-bar{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+.navbar{
+    background-color: teal;
+}
+
+.navbar-nav{
+    float:right;
+    text-align: right;
+}
+
+.nav-link:hover{
+    color: mediumturquoise;
+}
+
+.nav-link{
+    color:whitesmoke;
+}
+
+/*-------------------------------PAGE3----------------------------------*/
+#page3{
+    height:100vh;
+}
+
+.resume{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/*-------------------------------PAGE4----------------------------------*/
+#page4{
+    height:100vh;
+}
+
+.porto{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 80px;
+}
+
+/*-------------------------------PAGE5----------------------------------*/
+#page5{
+    height:100vh;
+}
+
+.gallery{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/*-------------------------------PAGE6----------------------------------*/
+#page6{
+    height:100vh;
+}
+
+.net{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
