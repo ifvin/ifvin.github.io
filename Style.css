@@ -8,8 +8,7 @@
 
 /*---------------------------PAGE1 Profile--------------------------------------*/
 #page1
-{
-    background-image: url(img/backgroundd.jpg);
+{   background-image: url(img/backgroundd.jpg);
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
