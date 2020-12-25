@@ -8,7 +8,7 @@
 
 /*---------------------------PAGE1 Profile--------------------------------------*/
 #page1
-{   background-image: url(img/backgroundd.jpg);
+{   background-image: url(img/bg.gif);
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -35,21 +35,43 @@
     
 }
 
+
+
 /*-------------------------------PAGE2 About Me----------------------------------*/
 #page2 {
     height: 100vh;
 }
 
+#page2 p{
+    text-align: justify;
+}
+
 .fotodiri{
-    width:400px;
-    margin-left: 30px;
+    width:350px;
+    margin-left: 50px;
 }
 
 .about{
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 50px;
 }
 
+.re-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+}
+
+.progress-bar{
+    border-radius: 16px;
+    background: teal !important;
+
+}
+/*----------NavBar------*/
 .nav-bar{
     top: 0;
     position: sticky;
@@ -57,12 +79,20 @@
 }
 
 .navbar{
-    background-color: teal;
+    background-color:#422680;
 }
 
 .navbar-nav{
     float:right;
     text-align: right;
+}
+
+#contact{
+    float: initial;
+}
+
+.navbar-toggler{
+    outline: none !important;
 }
 
 .nav-link:hover{
@@ -78,8 +108,60 @@
 .resume{
     padding-top: 100px;
     padding-bottom: 50px;
+    background-color: #FFFFEA;
 }
 
+.resume h3{
+    margin-bottom: 35px;
+}
+.timeline p{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.timeline{
+    list-style-type: none;
+    position: relative;
+}
+
+.timeline:before{
+    content: " ";
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    left: 24px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+}
+
+.timeline li{
+    margin: 15px 0px 15px 15px;
+    background-color: #faf6e6;
+}
+
+.timeline li:before{
+    content: " ";
+    background-color:#FFFFEA;
+    display: inline-block;
+    position: absolute;
+    border: 3px solid black;
+    border-radius:50% ;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+
+.timeline h5{
+    background-color: wheat;
+    padding: 5px 0 5px 15px;
+    font-size: 15px;
+}
+
+.timeline p{
+    padding: 3px 0 5px 15px;
+}
 /*-------------------------------PAGE4 Art----------------------------------*/
 #page4{
     height:100vh;
