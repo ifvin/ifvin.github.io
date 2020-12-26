@@ -8,15 +8,9 @@
 
 @media screen and (max-width: 600px) {
     body {
-        display: none;
-    }  
-}
-
-@media screen and (min-width: 600px) {
-    #hp {
-        display: none;
-    }   
-}
+      display: none;
+    }
+  }
 
 
 
